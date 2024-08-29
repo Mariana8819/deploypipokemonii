@@ -1,0 +1,25 @@
+
+.cardscontainer {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    grid-gap: 20px; 
+    padding: 20px; 
+    margin: 0 auto; 
+    max-width: 1200px; 
+    text-decoration: none;
+}
+
+/* Anula los márgenes predeterminados aplicados a las imágenes */
+img {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Establece un ancho máximo para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Aplica un borde y sombra a las imágenes */
