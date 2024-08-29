@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const { DB_USER, DB_PASSWORD, DB_HOST, DB_PORT, DB_NAME } = process.env;
 
-const { DATABASE_URL } = process.env;
+//const { DATABASE_URL } = process.env;
 //postgresql://postgres:FVQvZzKGhHTaOjxAVEMyzLdbYzeWdDUW@meticulous-empathy.railway.internal:5432/railway
 const sequelize = new Sequelize(
   // DATABASE_URL,
