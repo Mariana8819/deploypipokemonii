@@ -21,7 +21,7 @@ export default function Card({pokemon}) {
         </div>
                      
         <Link to={`/detail/${id}`}>
-        <button>Details</button>
+        <button className={style.cardButton}>Details</button>
         </Link>
 
     </div>
